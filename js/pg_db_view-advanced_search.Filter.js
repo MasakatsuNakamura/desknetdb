@@ -1,0 +1,1 @@
+(function(b){var c=neo.core.readyNamespace("neo.webdb.pg_view.advancedSearch.Filter");if(!c){return}var a=neo.webdb.pg_view.advancedSearch.Filter=new neo.core.Class({superClass:neo.webdb.Filter,classProperties:{},properties:{_getDetail:function(e){var d=this.__call("_getDetail",[e]);if(!d){d={conditions:[],type:"and"}}return d}}})})(jQuery);

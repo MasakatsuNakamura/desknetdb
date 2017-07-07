@@ -1,0 +1,32 @@
+/***************************************************************
+    基本CSS
+***************************************************************/
+/*--------------------------------------------------------------
+    フォント
+--------------------------------------------------------------*/
+body, input, button, textarea, select, option{
+    font-family: 'メイリオ', Meiryo, 'Hiragino Kaku Gothic Pro W3', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', Arial,sans-serif;
+}
+/*--------------------------------------------------------------
+    改行
+--------------------------------------------------------------*/
+body{
+    word-break: break-all;
+}
+/*------------------------------------------------
+    イタリック（メイリオ全角対応）
+------------------------------------------------*/
+i, [style*=italic]{
+    font-family: 'Hiragino Kaku Gothic Pro W3', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', Arial,sans-serif;
+}
+/*------------------------------------------------
+    斜体（メール本文、印刷、確認）
+------------------------------------------------*/
+.jmail-body i,      .pbody i,       .send_conf-body-iframe-body i,   
+.jmail-body cite,   .pbody cite,    .send_conf-body-iframe-body cite,
+.jmail-body em,     .pbody em,      .send_conf-body-iframe-body em,
+.jmail-body var,    .pbody var,     .send_conf-body-iframe-body var,
+.jmail-body dfn,    .pbody dfn,     .send_conf-body-iframe-body dfn{
+    font-family: 'Hiragino Kaku Gothic Pro W3', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', Arial,sans-serif;
+}
+

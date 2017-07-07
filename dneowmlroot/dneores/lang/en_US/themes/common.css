@@ -1,0 +1,129 @@
+/*************************************************
+    言語
+*************************************************/
+/*------------------------------------------------
+    基本CSS
+------------------------------------------------*/
+body, input, button, textarea, select, option{
+    /* cgi-bin/dneo/local/xxx/com_localと揃える */
+    font-family: Arial,sans-serif;
+}
+/*------------------------------------------------
+    jQuery UI （ダイアログ、日付選択など）
+------------------------------------------------*/
+.ui-widget, .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button{
+    /* 基本CSSの設定と揃える（画面とダイアログで同じフォントになるようにする） */
+    font-family: Arial, sans-serif;
+}
+/*------------------------------------------------
+    イタリック（メイリオ全角対応）
+------------------------------------------------*/
+i, [style*=italic]{
+    font-family: Arial,sans-serif;
+}
+/*------------------------------------------------
+    タイトル（イタリック = ユーザー記述）
+------------------------------------------------*/
+.co-m-title .overflow,
+.co-m-title .overflow-auto{
+    font-family: Arial,sans-serif;
+}
+/*------------------------------------------------
+    斜体
+------------------------------------------------*/
+.co-mceview i,
+.co-mceview cite,
+.co-mceview em,
+.co-mceview var,
+.co-mceview dfn{
+  font-family: Arial,sans-serif;
+}
+/*************************************************
+    サイズ
+*************************************************/
+/*------------------------------------------------
+ 注釈のインデント 
+------------------------------------------------*/
+p.co-msg,
+p.co-msg-b,
+p.co-msg-g,
+p.co-msg-r,
+p.co-msg-rs{
+    padding-left: 0.7em;
+    text-indent: -0.7em;
+}
+/*************************************************
+    例外
+*************************************************/
+/*------------------------------------------------
+ 日本語はサイズで改行、英語は単語で改行
+------------------------------------------------*/
+body{
+    word-break: normal;
+}
+#jco-print-body .co-mceview{
+    word-break: normal;
+}
+
+/*************************************************
+ 画像
+*************************************************/
+/*------------------------------------------------
+    各種アイコン
+------------------------------------------------*/
+/* 外出 */
+.sch-ictype1-out{
+    background-image: url(/dneores/lang/en_US/images/sch/ic_out.gif);
+}
+.co-browser-IE-8 .sch-ictype1-out{
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dneores/lang/en_US/images/sch/ic_out.gif', sizingMethod='scale');
+}
+/* 仮予定 */
+.sch-ictype1-tmp{
+    background-image: url(/dneores/lang/en_US/images/sch/ic_tmpreserve.gif);
+}
+.co-browser-IE-8 .sch-ictype1-tmp{
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dneores/lang/en_US/images/sch/ic_tmpreserve.gif', sizingMethod='scale');
+}
+/* 重要 */
+.sch-ictype1-imp{
+    background-image: url(/dneores/lang/en_US/images/sch/ic_important.gif);
+}
+.co-browser-IE-8 .sch-ictype1-imp{
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dneores/lang/en_US/images/sch/ic_important.gif', sizingMethod='scale');
+}
+/* 定期 */
+.sch-ictype1-rep{
+    background-image: url(/dneores/lang/en_US/images/sch/ic_regular.gif);
+}
+.co-browser-IE-8 .sch-ictype1-rep{
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dneores/lang/en_US/images/sch/ic_regular.gif', sizingMethod='scale');
+}
+/* 承認依頼 */
+.sch-ictype1-approve{
+    background-image: url(/dneores/lang/en_US/images/sch/ic_approve.gif);
+}
+.co-browser-IE-8 .sch-ictype1-approve{
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dneores/lang/en_US/images/sch/ic_approve.gif', sizingMethod='scale');
+}
+/* 承認完了 */
+.sch-ictype1-appfinish{
+    background-image: url(/dneores/lang/en_US/images/sch/ic_end.gif);
+}
+.co-browser-IE-8 .sch-ictype1-appfinish{
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dneores/lang/en_US/images/sch/ic_end.gif', sizingMethod='scale');
+}
+/* 承認依頼 */
+.sch-ictype1-appreq{
+    background-image: url(/dneores/lang/en_US/images/sch/ic_request.gif);
+}
+.co-browser-IE-8 .sch-ictype1-appreq{
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dneores/lang/en_US/images/sch/ic_request.gif', sizingMethod='scale');
+}
