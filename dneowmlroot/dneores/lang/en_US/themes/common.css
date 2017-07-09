@@ -6,27 +6,27 @@
 ------------------------------------------------*/
 body, input, button, textarea, select, option{
     /* cgi-bin/dneo/local/xxx/com_localと揃える */
-    font-family: Arial,sans-serif;
+    font-family: Hiragino Kaku Gothic ProN,メイリオ,sans-serif;
 }
 /*------------------------------------------------
     jQuery UI （ダイアログ、日付選択など）
 ------------------------------------------------*/
 .ui-widget, .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button{
     /* 基本CSSの設定と揃える（画面とダイアログで同じフォントになるようにする） */
-    font-family: Arial, sans-serif;
+    font-family: Hiragino Kaku Gothic ProN,メイリオ,sans-serif;
 }
 /*------------------------------------------------
     イタリック（メイリオ全角対応）
 ------------------------------------------------*/
 i, [style*=italic]{
-    font-family: Arial,sans-serif;
+    font-family: Hiragino Kaku Gothic ProN,メイリオ,sans-serif;
 }
 /*------------------------------------------------
     タイトル（イタリック = ユーザー記述）
 ------------------------------------------------*/
 .co-m-title .overflow,
 .co-m-title .overflow-auto{
-    font-family: Arial,sans-serif;
+    font-family: Hiragino Kaku Gothic ProN,メイリオ,sans-serif;
 }
 /*------------------------------------------------
     斜体
@@ -36,7 +36,7 @@ i, [style*=italic]{
 .co-mceview em,
 .co-mceview var,
 .co-mceview dfn{
-  font-family: Arial,sans-serif;
+    font-family: Hiragino Kaku Gothic ProN,メイリオ,sans-serif;
 }
 /*************************************************
     サイズ
