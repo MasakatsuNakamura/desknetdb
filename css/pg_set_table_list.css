@@ -1,1 +1,35 @@
-.operation-left{float:left;}.operation-right{float:right;text-align:right;}.clear-both{clear:both;}#table-start_sorting,#table-stop_sorting{display:none;}.display-none{display:none;}.table-name{word-wrap:break-word;word-break:break-all;}.table-note{word-wrap:break-word;word-break:break-all;}.table-status{text-align:center;width:60px;}
+.operation-left {
+  float: left;
+}
+
+.operation-right {
+  float: right;
+  text-align: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+#table-start_sorting, #table-stop_sorting {
+  display: none;
+}
+
+.display-none {
+  display: none;
+}
+
+.table-name {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.table-note {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.table-status {
+  text-align: center;
+  width: 60px;
+}

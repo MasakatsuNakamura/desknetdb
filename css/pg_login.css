@@ -1,1 +1,117 @@
-body{min-width:950px;}#main{margin:0;}#header{background-color:#000;background-image:url(../img/menu/menu_back.jpg);background-repeat:repeat-x;background-position:left top;height:51px;overflow:hidden;width:100%;}.div-login-body{display:block;background-image:url(../img/login/login_back.jpg);background-repeat:repeat-x;background-position:left top;}.div-logo{display:block;background-image:url(../img/login/logo_login_dnetdb.gif);background-repeat:no-repeat;background-position:right bottom;width:410px;height:210px;float:left;}.div-logo-in{width:100%;}.div-login-back{display:block;height:617px;min-height:617px;background-image:url(../img/login/bg-login-main-back.jpg);background-repeat:no-repeat;background-position:left top;}.div-login-back-in{width:100%;}.div-login-input-f{display:block;float:left;width:410px;height:430px;}.div-login-input-f-in{width:100%;text-align:right;}.div-login-input-f2{display:block;margin-right:0;margin-left:auto;width:350px;}.div-login-input-f2-in{width:100%;margin-top:100px;}.div-login-input{display:block;border:7px solid #FFF;padding:10px;padding-top:20px;padding-bottom:10px;background-color:#FFF;background-image:url(../img/login/login_input_back.jpg);background-repeat:repeat-x;background-position:left bottom;}.div-login-input-in{width:100%;font-size:12px;text-align:center;}.table-login-input{margin-right:auto;margin-left:auto;}.table-login-input th{text-align:right;color:#365661;font-size:12px;background-color:transparent;border:none;text-align:right;}.table-login-input td{background-color:transparent;border:none;text-align:left;}.table-login-input .text{width:170px;}
+body {
+  min-width: 950px;
+}
+
+#main {
+  margin: 0;
+}
+
+#header {
+  background-color: #000;
+  background-image: url(../img/menu/menu_back.jpg);
+  background-repeat: repeat-x;
+  background-position: left top;
+  height: 51px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.div-login-body {
+  display: block;
+  background-image: url(../img/login/login_back.jpg);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+.div-logo {
+  display: block;
+  background-image: url(../img/login/logo_login_dnetdb.gif);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 410px;
+  height: 210px;
+  float: left;
+}
+
+.div-logo-in {
+  width: 100%;
+}
+
+.div-login-back {
+  display: block;
+  height: 617px;
+  min-height: 617px;
+  background-image: url(../img/login/bg-login-main-back.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.div-login-back-in {
+  width: 100%;
+}
+
+.div-login-input-f {
+  display: block;
+  float: left;
+  width: 410px;
+  height: 430px;
+}
+
+.div-login-input-f-in {
+  width: 100%;
+  text-align: right;
+}
+
+.div-login-input-f2 {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+  width: 350px;
+}
+
+.div-login-input-f2-in {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.div-login-input {
+  display: block;
+  border: 7px solid #FFF;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #FFF;
+  background-image: url(../img/login/login_input_back.jpg);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+.div-login-input-in {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.table-login-input {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.table-login-input th {
+  text-align: right;
+  color: #365661;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  text-align: right;
+}
+
+.table-login-input td {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+}
+
+.table-login-input .text {
+  width: 170px;
+}
