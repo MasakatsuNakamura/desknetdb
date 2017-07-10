@@ -1,1 +1,26 @@
-#visible_cols_setting{width:260px;}#visible_cols_setting-columns{border:1px solid #7F9DB9;height:300px;overflow:auto;_width:260px;}#visible_cols_setting-columns li{_line-height:0;}.visible_cols_setting-columns-label{cursor:pointer;display:block;padding:0;_line-height:normal;_cursor:auto;}.visible_cols_setting-columns-label:hover{background-color:#def;}
+#visible_cols_setting {
+  width: 260px;
+}
+
+#visible_cols_setting-columns {
+  border: 1px solid #7F9DB9;
+  height: 300px;
+  overflow: auto;
+  _width: 260px;
+}
+
+#visible_cols_setting-columns li {
+  _line-height: 0;
+}
+
+.visible_cols_setting-columns-label {
+  cursor: pointer;
+  display: block;
+  padding: 0;
+  _line-height: normal;
+  _cursor: auto;
+}
+
+.visible_cols_setting-columns-label:hover {
+  background-color: #def;
+}

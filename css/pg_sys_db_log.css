@@ -1,1 +1,14 @@
-.logsize_cell{width:80px;text-align:center;}.logoutput_cell{width:80px;text-align:center;}.button_cell{width:120px;text-align:center;}
+.logsize_cell {
+  width: 80px;
+  text-align: center;
+}
+
+.logoutput_cell {
+  width: 80px;
+  text-align: center;
+}
+
+.button_cell {
+  width: 120px;
+  text-align: center;
+}

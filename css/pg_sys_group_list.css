@@ -1,1 +1,28 @@
-.rowlist{margin:10px;text-align:center;}.current_group{padding:5px;background-color:#7F9DB9;color:#fff;}#showgrp{font-weight:bold;margin-left:5px;}.name_cell{word-wrap:break-word;}.usercnt_cell{width:150px;}.operation-del-container{margin:0 30px;white-space:nowrap;}
+.rowlist {
+  margin: 10px;
+  text-align: center;
+}
+
+.current_group {
+  padding: 5px;
+  background-color: #7F9DB9;
+  color: #fff;
+}
+
+#showgrp {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.name_cell {
+  word-wrap: break-word;
+}
+
+.usercnt_cell {
+  width: 150px;
+}
+
+.operation-del-container {
+  margin: 0 30px;
+  white-space: nowrap;
+}

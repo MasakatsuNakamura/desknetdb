@@ -1,1 +1,19 @@
-.loglist{margin-top:10px;}.day_cell{width:120px;}.ip_cell{width:100px;}.name_cell{width:150px;}.operate_cell{width:150px;}
+.loglist {
+  margin-top: 10px;
+}
+
+.day_cell {
+  width: 120px;
+}
+
+.ip_cell {
+  width: 100px;
+}
+
+.name_cell {
+  width: 150px;
+}
+
+.operate_cell {
+  width: 150px;
+}
