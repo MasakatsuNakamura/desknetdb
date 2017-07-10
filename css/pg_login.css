@@ -88,7 +88,7 @@ body {
 
 .div-login-input-in {
   width: 100%;
-  font-size: 14px;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ body {
 .table-login-input th {
   text-align: right;
   color: #365661;
-  font-size: 14px;
+  font-size: 1em;
   background-color: transparent;
   border: none;
   text-align: right;
