@@ -95,7 +95,8 @@
   color: #999;
 }
 
-.usr-line-selected a, .usr-line-selected a:active {
+.usr-line-selected a,
+.usr-line-selected a:active {
   color: #999;
   cursor: default;
   text-decoration: none;

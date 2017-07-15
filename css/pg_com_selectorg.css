@@ -38,7 +38,8 @@
   white-space: nowrap;
 }
 
-.org-line-selected, .org-line-selected:visited {
+.org-line-selected,
+.org-line-selected:visited {
   color: #999;
   cursor: default;
   text-decoration: none;

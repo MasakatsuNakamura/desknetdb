@@ -124,7 +124,8 @@ body#view {
   text-decoration: none;
 }
 
-.pager_index-pgnum-link, .pager_index-pgnum-link:visited {
+.pager_index-pgnum-link,
+.pager_index-pgnum-link:visited {
   text-decoration: none;
 }
 
@@ -167,7 +168,10 @@ a .pager_index-ope {
   width: auto;
 }
 
-.table-title_cell, .table-data_cell, .layout-item-dummy-title, .layout-item-dummy-data {
+.table-title_cell,
+.table-data_cell,
+.layout-item-dummy-title,
+.layout-item-dummy-data {
   padding: 0;
 }
 
@@ -226,7 +230,8 @@ th.selectable_table-checkbox-cell .table_layout-cell_box img {
   margin-top: 1px;
 }
 
-.table-operations_cell, .table-operations_cell .table_layout-cell_box {
+.table-operations_cell,
+.table-operations_cell .table_layout-cell_box {
   font-weight: normal;
   margin-left: 0;
   margin-right: 0;
@@ -260,7 +265,8 @@ th.selectable_table-checkbox-cell .table_layout-cell_box img {
   background-color: #CFC;
 }
 
-.table .table-row-disabled .data_cell, .for_layout .table-row-disabled .data_cell {
+.table .table-row-disabled .data_cell,
+.for_layout .table-row-disabled .data_cell {
   background-color: #ccc;
   color: #666;
 }
@@ -270,11 +276,14 @@ th.selectable_table-checkbox-cell .table_layout-cell_box img {
   color: #666;
 }
 
-.for_layout .table-row-disabled th, .for_layout .table-row-disabled td {
+.for_layout .table-row-disabled th,
+.for_layout .table-row-disabled td {
   border-color: #999;
 }
 
-.table-row-disabled .data_cell img, .table-row-disabled .data_cell input, .table-row-disabled .detail-record_oparations {
+.table-row-disabled .data_cell img,
+.table-row-disabled .data_cell input,
+.table-row-disabled .detail-record_oparations {
   visibility: hidden;
 }
 
@@ -308,7 +317,8 @@ th.selectable_table-checkbox-cell .table_layout-cell_box img {
   vertical-align: bottom;
 }
 
-.detail_table-title_cell, .detail_table-data_cell {
+.detail_table-title_cell,
+.detail_table-data_cell {
   padding: 0;
 }
 
@@ -376,7 +386,8 @@ th.selectable_table-checkbox-cell .table_layout-cell_box img {
   z-index: 1;
 }
 
-#col_menu-open:hover, #col_menu-open.col_menu-open-active {
+#col_menu-open:hover,
+#col_menu-open.col_menu-open-active {
   filter: alpha(opacity=100);
   opacity: 1;
 }

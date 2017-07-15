@@ -13,7 +13,8 @@ h2 {
   padding: 4px;
 }
 
-.table-operations_cell, .table-operations_cell .table_layout-cell_box {
+.table-operations_cell,
+.table-operations_cell .table_layout-cell_box {
   font-weight: normal;
   margin-left: 0;
   margin-right: 0;

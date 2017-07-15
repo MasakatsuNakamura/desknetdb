@@ -19,7 +19,8 @@
   width: auto;
 }
 
-#csv_preview_table th, #csv_preview_table td {
+#csv_preview_table th,
+#csv_preview_table td {
   vertical-align: top;
   /width: 150px;
 }
@@ -138,7 +139,8 @@
   width: 100%;
 }
 
-.credb_tmpl-col_table th, .credb_tmpl-col_table td {
+.credb_tmpl-col_table th,
+.credb_tmpl-col_table td {
   padding: 3px;
 }
 

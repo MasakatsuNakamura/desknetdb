@@ -4,7 +4,8 @@
   width: auto;
 }
 
-.dbset_column_list-layout_table th, .dbset_column_list-layout_table td {
+.dbset_column_list-layout_table th,
+.dbset_column_list-layout_table td {
   border: 0;
   padding-left: 0;
   padding-right: 0;
@@ -17,7 +18,8 @@
   width: auto;
 }
 
-.layout_table th, .layout_table td {
+.layout_table th,
+.layout_table td {
   border: 0;
 }
 

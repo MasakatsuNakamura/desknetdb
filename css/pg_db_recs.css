@@ -12,11 +12,15 @@
   margin: 0;
 }
 
-.recs-input_area div, .recs-input_area table, .recs-input_area form {
+.recs-input_area div,
+.recs-input_area table,
+.recs-input_area form {
   display: inline;
 }
 
-.recs-input_area input, .recs-input_area select, .recs-input_area textarea {
+.recs-input_area input,
+.recs-input_area select,
+.recs-input_area textarea {
   vertical-align: middle;
 }
 

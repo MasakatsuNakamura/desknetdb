@@ -43,7 +43,8 @@
   width: 100%;
 }
 
-.dltmpl-col_table th, .dltmpl-col_table td {
+.dltmpl-col_table th,
+.dltmpl-col_table td {
   padding: 3px;
 }
 

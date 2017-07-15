@@ -1,4 +1,5 @@
-.for_layout th, .for_layout td {
+.for_layout th,
+.for_layout td {
   border-style: none;
   padding: 2px;
 }

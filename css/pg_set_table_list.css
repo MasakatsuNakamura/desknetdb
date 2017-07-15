@@ -11,7 +11,8 @@
   clear: both;
 }
 
-#table-start_sorting, #table-stop_sorting {
+#table-start_sorting,
+#table-stop_sorting {
   display: none;
 }
 

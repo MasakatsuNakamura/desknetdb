@@ -14,15 +14,24 @@
   background-color: #ddd;
 }
 
-.permission-read, .permission-add, .permission-write, .permission-remove, .permission-comment, .permission-export_csv {
+.permission-read,
+.permission-add,
+.permission-write,
+.permission-remove,
+.permission-comment,
+.permission-export_csv {
   text-align: center;
 }
 
-.permission-read, .permission-add, .permission-write, .permission-remove {
+.permission-read,
+.permission-add,
+.permission-write,
+.permission-remove {
   width: 40px;
 }
 
-.permission-comment, .permission-export_csv {
+.permission-comment,
+.permission-export_csv {
   width: 105px;
 }
 
@@ -55,7 +64,9 @@
   background-position: 0 -20px;
 }
 
-.permission-status-off, .permission-row-noinherited .permission-status-off, .permission-row-inherited .permission-status-off {
+.permission-status-off,
+.permission-row-noinherited .permission-status-off,
+.permission-row-inherited .permission-status-off {
   background-image: none;
 }
 

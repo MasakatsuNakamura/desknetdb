@@ -113,7 +113,8 @@
   color: #333;
 }
 
-#record_list_print .table-operations_cell, #record_list_print .table-operations_cell .table_layout-cell_box {
+#record_list_print .table-operations_cell,
+#record_list_print .table-operations_cell .table_layout-cell_box {
   font-weight: normal;
   margin: 0;
   width: 1px;

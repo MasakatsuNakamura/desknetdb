@@ -30,7 +30,8 @@
   margin-top: 5px;
 }
 
-.autocrrct-table th, .autocrrct-table td {
+.autocrrct-table th,
+.autocrrct-table td {
   border: none;
   padding: 4px 0;
 }

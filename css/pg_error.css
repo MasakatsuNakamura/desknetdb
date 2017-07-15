@@ -10,7 +10,8 @@
   margin: auto;
 }
 
-.message_table td, .message_table th {
+.message_table td,
+.message_table th {
   border: 0;
 }
 
